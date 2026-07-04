@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Question2"/>
+        <attribute name="authors" value="guy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-20 06:54:36 AM"/>
+        <attribute name="created" value="Z3V5O1RIRTRUSFMtRVBJQy1HQTsyMDI2LTA0LTIwOzA2OjUxOjI5IEFNOzI2NDA="/>
+        <attribute name="edited" value="Z3V5O1RIRTRUSFMtRVBJQy1HQTsyMDI2LTA0LTIwOzA2OjU0OjM2IEFNOzE7Mjc0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numbers" type="Integer" array="True" size="5"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <for variable="x" start="0" end="4" direction="inc" step="1">
+                <output expression="&quot;Enter a number: &quot;" newline="True"/>
+                <input variable="numbers[x]"/>
+            </for>
+            <for variable="x" start="0" end="4" direction="inc" step="1">
+                <output expression="numbers[x]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,17 @@
+.root {
+   -fx-font-family: sans-serif;
+   -fx-background-color:linear-gradient(lightcyan, gray);
+   }
+   
+.label-heading {
+   -fx-font-size: 11pt;
+   -fx-font-weight: Bold;
+   }
+   
+.label-minor {
+   -fx-font-size: 9pt;
+   }
+   
+.label-display {
+   -fx-font-size: 12pt;
+   }    
