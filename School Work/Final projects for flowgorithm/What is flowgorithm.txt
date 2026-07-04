@@ -1,1 +1,0 @@
-Is a program from http://www.flowgorithm.org/ that allows me as a programmer to plan out logic of a projects without worry about syntax of any one programming language.
